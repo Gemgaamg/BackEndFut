@@ -17,6 +17,17 @@ module.exports.policies = {
   *                                                                          *
   ***************************************************************************/
 
-  // '*': true,
+  
+	
+	'stadium/*': 'is-logged-in',
+	'*': 'is-logged-in',
+	'stadium/create': 'is-logged-in',
+	'user/changeimage': 'is-logged-in',
+  	'session/login': true,
+	'session/signup': true,
+	'user/*': false,
+	
+	'image/*': false,
+	// '*': true,
 
 };

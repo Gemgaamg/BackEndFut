@@ -1,4 +1,4 @@
-# futer-back-end
+# test-project
 
 a [Sails v1](https://sailsjs.com) application
 
@@ -15,7 +15,7 @@ a [Sails v1](https://sailsjs.com) application
 
 ### Version info
 
-This app was originally generated on Wed Apr 11 2018 00:17:22 GMT+0000 (UTC) using Sails v1.0.1.
+This app was originally generated on Sat Apr 21 2018 02:31:16 GMT+0000 (UTC) using Sails v1.0.1.
 
 <!-- Internally, Sails used [`sails-generate@1.15.20`](https://github.com/balderdashy/sails-generate/tree/v1.15.20/lib/core-generators/new). -->
 

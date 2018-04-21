@@ -24,9 +24,27 @@ module.exports.routes = {
   *                                                                          *
   ***************************************************************************/
 
+  //  ╔═╗╔═╗╦  ╔═╗╔╗╔╔╦╗╔═╗╔═╗╦╔╗╔╔╦╗╔═╗
+  //  ╠═╣╠═╝║  ║╣ ║║║ ║║╠═╝║ ║║║║║ ║ ╚═╗
+  //  ╩ ╩╩  ╩  ╚═╝╝╚╝═╩╝╩  ╚═╝╩╝╚╝ ╩ ╚═╝
+  'POST /api/user/upload':    { action: 'user/changeimage' },
+  // 'POST /api/images':         { action: 'Image/show' },
+  'POST /login':              { action: 'session/login' },
+  'GET /api/infouser':        { action: 'session/infouser' },
+  
+  'POST /api/signup':          { action: 'session/signup' },
+  'GET /api/logout':          { action: 'session/logout' },
+
+
+
+  'GET /api/doStadiumManager':        { action: 'stadium/do-stadium-manager' },
+  'GET /api/createStadium':        { action: 'stadium/create-stadium' },
+  
+
   '/': {
     view: 'pages/homepage'
   },
+  // 'user':true
 
   /***************************************************************************
   *                                                                          *
@@ -38,12 +56,6 @@ module.exports.routes = {
   * not match any of those, it is matched against static assets.             *
   *                                                                          *
   ***************************************************************************/
-
-
-  //  ╔═╗╔═╗╦  ╔═╗╔╗╔╔╦╗╔═╗╔═╗╦╔╗╔╔╦╗╔═╗
-  //  ╠═╣╠═╝║  ║╣ ║║║ ║║╠═╝║ ║║║║║ ║ ╚═╗
-  //  ╩ ╩╩  ╩  ╚═╝╝╚╝═╩╝╩  ╚═╝╩╝╚╝ ╩ ╚═╝
-
 
 
   //  ╦ ╦╔═╗╔╗ ╦ ╦╔═╗╔═╗╦╔═╔═╗
